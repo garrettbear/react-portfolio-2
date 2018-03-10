@@ -1,0 +1,110 @@
+:root {
+  font-size: 16px;
+}
+
+.desktopNav {
+  display: grid;
+  grid-gap: 20px;
+/*   background: red; */
+  margin: 0;
+/*   grid-template-columns: 300px auto; */
+  align-items: center;
+}
+
+
+.navitems ul{
+  max-width: 960px;
+  display: grid;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  align-content: center;
+  justify-items: center;
+  
+}
+
+.navitem, .navitem a{
+  text-decoration: none;
+  color: #1f1f1f;
+  font-family: "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+/*   background: violet; */
+  display: block;
+  padding: 0 0 5px 0;
+  
+}
+
+.itemnum{
+  font-size: 1rem;
+}
+
+/* BUTTON */
+[aria-controls="mobileMenu"] {
+  display: none;
+}
+
+@media (max-width: 960px){
+  [aria-controls="desktopMenu"] {
+  display: none;
+  }
+  [aria-controls="mobileMenu"] {
+  display: grid;
+  }
+  .navitem, .navitem a {
+    color: #fff;
+  }
+}
+
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: absolute;
+  width: 30px;
+  height: 25px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #1f1f1f;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 30px;
+  width: 30px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #f1f1f1;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #1f1f1f;
+  padding: 2.5em 1.5em 0 0;
+  font-size: 1.15em;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #1f1f1f;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #fff;
+  padding: 0.5em;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
