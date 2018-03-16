@@ -17,11 +17,16 @@ h1, h2, h3, h4, h5, h6 {
   color: #1f1f1f;
 }
 
+span {
+  font-family: "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #1f1f1f;
+}
+
 :root {
   font-size: 16px;
   }
 
-p {
+p, li {
   font-family: 'Cormorant Garamond', "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   color: #1f1f1f;

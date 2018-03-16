@@ -7,7 +7,6 @@ const Wrapper = styled.div`
   margin: 0 auto;
   padding: 0;
   background: #f1f1f1;
-  height: 100%;
 `;
 
 const AboutGarrett = styled.div`
@@ -15,6 +14,13 @@ const AboutGarrett = styled.div`
   max-width: 600px;
   margin: 0 auto;
   background: none;
+  h5{
+    text-align: center;
+    font-style: italic;
+  }
+  @media (max-width: 600px) {
+    margin: 10px 20px;
+  }
   & .bold {
     font-weight: bold;
   }
@@ -30,6 +36,7 @@ class Story extends React.Component {
       <Wrapper>
         <StoryHero />
         <AboutGarrett>
+          <h5>Garrett Bear Whisten</h5>
           <p>
           Garrett at one time worked at the Happiest Place on Earth, he was also a mechanic, and now in web/software development while putting use to his design skills. 
           </p>
