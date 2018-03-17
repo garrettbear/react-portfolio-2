@@ -64,51 +64,50 @@ class Experiments extends React.Component {
               programming. Such as strictly vanilla CSS/JS, JQuery, AJAX,
               API, React, MongoDB, Firebase, and more.
             </p>
+            <p className="pageDescription">
+              Warning: Most of these projects will open up on a new tabs, since they all live in different parts of the web. 
+            </p>
+            <p className="pageDescription">
+              More coming soon...
+            </p>
               <ExperimentItem>
-                <a href="/experiments">
-                  <h6>Guest Book - 13.4.986</h6>
+                <a href="https://money-rocket.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                  <h6>Money Rocket - 11.4.876</h6>
                   <span>Experiment Description:</span>
                   <p>
-                    Some type of modual that displays photos I have taken for
-                    design inspiration. morew teijdkfnfdgk dSxzklczjckjzc zxk
-                    zxkckjckjc jxkcvcxjhvj kjxhfiodsufdsf kjchxkcjxvncbv nncn
-                    dhfsyfuids kjxchvkjxch dskjdjsiisccc.
+                    An application to help promote financial self control. For this application, Garrett was responsible for building the front end developement using MaterializeCSS and D3 (for the charts). This project was a team effort with Zhong and Nathan.
+                  </p>
+                  <p>The README &amp; Repo have more info: &nbsp;
+                    <a href="https://github.com/garrettbear/money-map" target="_blank" rel="noopener noreferrer">
+                      https://github.com/garrettbear/money-map
+                    </a>
                   </p>
                 </a>
               </ExperimentItem>
               <ExperimentItem>
-                <a href="/experiments">
-                  <h6>Guest Book - 13.4.986</h6>
+                <a href="https://contact-search.netlify.com/" target="_blank" rel="noopener noreferrer">
+                  <h6>Contact Search - 09.1.786</h6>
                   <span>Experiment Description:</span>
                   <p>
-                    Some type of modual that displays photos I have taken for
-                    design inspiration. morew teijdkfnfdgk dSxzklczjckjzc zxk
-                    zxkckjckjc jxkcvcxjhvj kjxhfiodsufdsf kjchxkcjxvncbv nncn
-                    dhfsyfuids kjxchvkjxch dskjdjsiisccc.
+                    A client side contact search bar using React and Styled Components.
                   </p>
                 </a>
               </ExperimentItem>
               <ExperimentItem>
-                <a href="/experiments">
-                  <h6>Guest Book - 13.4.986</h6>
+                <a href="https://mdk82.github.io/Project-01-Message-Board/" target="_blank" rel="noopener noreferrer">
+                  <h6>Portfolio Message Board - 13.4.986</h6>
                   <span>Experiment Description:</span>
                   <p>
-                    Some type of modual that displays photos I have taken for
-                    design inspiration. morew teijdkfnfdgk dSxzklczjckjzc zxk
-                    zxkckjckjc jxkcvcxjhvj kjxhfiodsufdsf kjchxkcjxvncbv nncn
-                    dhfsyfuids kjxchvkjxch dskjdjsiisccc.
+                    A message board for your portfolio to allow your vistors to leave a nice comment. Project was built with vanilla CSS, JQuery, Giphy API, and Firebase. Michael handled working with Firebase and Danilo helped get the Giphy API connected. 
                   </p>
                 </a>
               </ExperimentItem>
               <ExperimentItem>
-                <a href="/experiments">
-                  <h6>Guest Book - 13.4.986</h6>
+                <a href="https://garrettbear.github.io/jquery-crystal-game/" target="_blank" rel="noopener noreferrer">
+                  <h6> Seven Dwarfs Diamond Game - 03.9.333</h6>
                   <span>Experiment Description:</span>
                   <p>
-                    Some type of modual that displays photos I have taken for
-                    design inspiration. morew teijdkfnfdgk dSxzklczjckjzc zxk
-                    zxkckjckjc jxkcvcxjhvj kjxhfiodsufdsf kjchxkcjxvncbv nncn
-                    dhfsyfuids kjxchvkjxch dskjdjsiisccc.
+                    A crystal game for you to guess the value of each diamond and have your score match the # of diamonds. Project built using JQuery as the main focus. 
                   </p>
                 </a>
               </ExperimentItem>
