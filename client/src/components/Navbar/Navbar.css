@@ -5,9 +5,7 @@
 .desktopNav {
   display: grid;
   grid-gap: 20px;
-/*   background: red; */
   margin: 0;
-/*   grid-template-columns: 300px auto; */
   align-items: center;
 }
 
@@ -64,8 +62,10 @@
   position: absolute;
   width: 30px;
   height: 25px;
-  left: 36px;
-  top: 36px;
+  align-self: center;
+  justify-self: center;
+  left: 32px;
+  top: 32px;
 }
 
 /* Color/shape of burger icon bars */

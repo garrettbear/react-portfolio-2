@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 import styled from 'styled-components';
 
 const PageContents = styled.div`
-  background: #fff;
+  background: #f1f1f1;
   min-height: 100vh;
   }
 `;

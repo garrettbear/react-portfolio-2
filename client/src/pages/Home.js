@@ -1,41 +1,22 @@
-import React from "react";
+import React from 'react';
 import styled from 'styled-components';
+import JelloBox from "../components/JelloBox";
 
 const Wrapper = styled.div`
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 15px;
   background: #f1f1f1;
   min-height: 100vh;
   display: grid;
   justify-content: center;
-  }
 `;
 const MainText = styled.div`
   text-align: center;
   align-self: center;
-  line-height: .8;
-  }
+  line-height: 1.2;
+  z-index: 100;
 `;
-// const StyledButton = styled.button`
-//   width: 200px;
-//   height: 75px;
-//   border: 3px solid #000;
-//   background: gold;
-//   :hover{
-//     background:white;
-//     cursor: pointer;
-//   }
-//   & a {
-//     font-size: 1.5rem;
-//     font-family: "Helvetica Neue", Helvetica, sans-serif;
-//     color: black;
-//     &:focus, &:hover, &:visited, &:link, &:active {
-//       text-decoration: none;
-//     } 
-//   }
-//   }
-// `;
 
 const Home = () => (
 <Wrapper>
@@ -44,6 +25,7 @@ const Home = () => (
     <h6>Front End Developer</h6>
     <p>Always doing weird things.</p>
   </MainText>
+  <JelloBox />
 </Wrapper>
 );
 

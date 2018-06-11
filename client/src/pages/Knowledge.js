@@ -44,7 +44,7 @@ class Knowledge extends React.Component {
         <KnowledgeHero />
         <KnowledgeStuff>
           <h5>Knowledge</h5>
-          <p>The best way to gain knowledge is through experience. Garrett has a strong desire for curiosity which leads him to new experiences/experiments. It's actually what kind of led him to get into web development. "How exactly does this work?" He is constantly learning new things and applying them to a real case scenario or experiment. Over the years Garrett has gained a strong background in technology, design, automotive, sports, business, food, beer, coffee, photography, and a lot more to list.</p>
+          <p>The best way to gain knowledge is through experience. Garrett has a strong desire for curiosity which leads him to new experiences/experiments. It's actually what kind of led him to get into web development. "How exactly does this work?" He is constantly learning new things and applying them to a real case scenario or experiment. Over the years Garrett has gained a strong background in technology, design, automotive, sports, business, food, beer, coffee, photography, and a lot more.</p>
           <h6>Programming Languages/Tools</h6>
           <ul>
             <li>HTML</li>

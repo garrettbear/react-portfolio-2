@@ -67,9 +67,19 @@ class Experiments extends React.Component {
             <p className="pageDescription">
               Warning: Most of these projects will open up on a new tabs, since they all live in different parts of the web. 
             </p>
-            <p className="pageDescription">
-              More coming soon...
-            </p>
+            <ExperimentItem>
+                <a href="https://ecomrush.com" target="_blank" rel="noopener noreferrer">
+                  <h6>EcomRush - 01.1.989</h6>
+                  <span>Experiment Description:</span>
+                  <p>
+                    Product and service review platform that reaches out to customers more effectively. 
+                    We believe in honesty and accuracy.
+                  </p>
+                  <p>
+                    More details about this application are under stealthmode and we currently have launched some beta tests to insure that we are building a product that best suits our customers and is scalable in several directions.
+                  </p>
+                </a>
+              </ExperimentItem>
               <ExperimentItem>
                 <a href="https://money-rocket.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                   <h6>Money Rocket - 11.4.876</h6>

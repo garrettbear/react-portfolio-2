@@ -83,7 +83,7 @@ class Record extends React.Component {
             </p>
             <div className="resumeButtons">
             <StyledButton><a href="https://www.linkedin.com/in/gwhisten/" target="_blank" rel="noopener noreferrer">LinkedIn</a></StyledButton>
-            <StyledButton><a href="https://drive.google.com/file/d/1Suqg8MrximFk3hezMC-Wqd_J0HJAhudm/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></StyledButton>
+            <StyledButton><a href="https://drive.google.com/open?id=1BA6nOz1yAGgrjGa-qv7EwHC9fDThrDth" target="_blank" rel="noopener noreferrer">Resume</a></StyledButton>
             </div>
           </TrackRecords>
         </Wrapper>
